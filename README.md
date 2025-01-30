@@ -9,7 +9,7 @@ Highlights of the Corpus:
 16th Century & 17th Century: William Shakespeare
 Late 19th Century & 20th Century:  F. Scott Fitzgerald & Zelda Fitzgerald, T.S. Eliot & Vivienne Haigh-Wood Eliot. 🡪 the Jazz Age, the Lost Generation, the American Dream, and the Modernist movement. 
 
-`Selection criteria`: 
+`Selection criteria`
 
 - Empirical Assumptions for Research: Books selected during the investigation had to have assumptions or hypotheses that were in need of further research. This category also includes works that may possess historical, stylistic, and thematic relations that need deeper analysis.
 
@@ -23,34 +23,34 @@ Below is a list of works organized by the pairs of authors and genres:
 
 ***F. Scott Fitzgerald & Zelda Fitzgerald***
 
-`Novels`: 
+`Novels`
 Tender is the Night- F. Scott Fitzgerald 
 The Great Gatsby- F. Scott Fitzgerald
 Save Me the Waltz- Zelda Fitzgerald
 
-`Short stories`: 
+`Short stories`
 The Beautiful and the Damned- F. Scott Fitzgerald
 The Girl the Prince Liked- Zelda Fitzgerald
 Eulogy on the Flapper- Zelda Fitzgerald
 
-`Letters`: 
+`Letters` 
 Letters To F. Scott Fitzgerald- Zelda Fitzgerald
 
-`Plays`: 
+`Plays`
 Scandalabra- Zelda Fitzgerald
 The Vegetable- F. Scott Fitzgerald
 
 ***T.S Eliot & Vivienne Haigh-Wood Eliot***
 
-`Short Stories`:
+`Short Stories`
 Eeldrop and Appleplex (1917) - T.S Eliot
 Various Short Stories - Vivienne Eliot
 
-`Letters`:
+`Letters`
 Excerpts from Letters 1914-1939 - T.S Eliot
 Excerpts from Letters 1914-1939 - Vivienne Eliot
 
-`Poems`:
+`Poems`
 The Waste Land (1922) - T.S Eliot
 A Song For Simeon (1928) - T.S Eliot
 La Figlia che Piange (1917) - T.S Eliot
@@ -66,7 +66,7 @@ Necesse est Perstare (1925) - Vivienne Eliot
 
 ***Mary Sidney & William Shakespeare***
 
-`Tragedies`:
+`Tragedies`
 The Tragedie of Antonie- Mary Sidney 
 Antony and Cleopatra- William Shakespeare
 (A Discourse of Life and Death- Mary Sidney in a separately conducted analysis) 
@@ -85,7 +85,8 @@ Troilus and Cressida
 The corpus was expanded by adding authors of distraction, selected on certain criteria that ensure completeness and comparison. These include sharing a genre and themes of writing, falling in the same era of writing, and having some connection or relevance to the primary authors. These distractor authors allowed a deeper analysis of stylistic patterns, thematic overlaps, and potential influences. These include: 
 
 ***F. Scott Fitzgerald & Zelda Fitzgerald*** 
-`Novels`:
+
+`Novels`
 A Farewell To Arms-Ernest Hemingway
 A Handful of Dust- Evelyn Waugh
 For Whom the Bell Tolls-Ernest Hemingway
@@ -97,7 +98,7 @@ To Have and Have Not-Ernest Hemingway
 To the Lighthouse- Virginia Woolf
 Vile Bodies- Evelyn Waugh
 
-`Short Stories`:
+`Short Stories`
 Big Blonde- Dorothy Parker
 G.M.P- Gertrude Stein
 In our time – Ernest Hemingway
@@ -109,7 +110,7 @@ The New Dress- Virginia Woolf
 
 ***T.S Eliot & Vivienne Eliot***
 
-`Poems`:
+`Poems`
 Hugh Selwyn Mauberley - Ezra Pound
 The Cantos - Ezra Pound
 The Garden - Ezra Pound
@@ -129,7 +130,7 @@ Sailing to Byzantium - William Butler Yeats
 The Second Coming - William Butler Yeats
 The Tower - William Butler Yeats
 
-`Short Stories`:
+`Short Stories`
 Literary Essays - Ezra Pound
 Make it new essays - Ezra Pound
 The Garden Party - Katherine Mansfield
