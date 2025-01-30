@@ -9,7 +9,7 @@ Highlights of the Corpus:
 16th Century & 17th Century: William Shakespeare
 Late 19th Century & 20th Century:  F. Scott Fitzgerald & Zelda Fitzgerald, T.S. Eliot & Vivienne Haigh- Wood Eliot. 🡪 the Jazz Age, the Lost Generation, the American Dream, and the Modernist movement. 
 
-### Selection criteria: 
+`Selection criteria`: 
 
 - Empirical Assumptions for Research: Books selected during the investigation had to have assumptions or hypotheses that were in need of further research. This category also includes works that may possess historical, stylistic, and thematic relations that need deeper analysis.
 
@@ -20,23 +20,26 @@ Late 19th Century & 20th Century:  F. Scott Fitzgerald & Zelda Fitzgerald, T.S. 
 ### Included Works
 
 Below is a list of works organized by the pairs of authors and genres:
-F. Scott Fitzgerald & Zelda Fitzgerald: 
-Novels: 
+
+***F. Scott Fitzgerald & Zelda Fitzgerald***: 
+
+`Novels`: 
 Tender is the Night- F. Scott Fitzgerald 
 The Great Gatsby- F. Scott Fitzgerald
 Save Me the Waltz- Zelda Fitzgerald
 
-Short stories: 
+`Short stories`: 
 The Beautiful and the Damned- F. Scott Fitzgerald
 The Girl the Prince Liked- Zelda Fitzgerald
 Eulogy on the Flapper- Zelda Fitzgerald
 
-Letters: 
+`Letters`: 
 Letters To F. Scott Fitzgerald- Zelda Fitzgerald
 
-Plays: 
+`Plays`: 
 Scandalabra- Zelda Fitzgerald
 The Vegetable- F. Scott Fitzgerald
+
 
 ADD HERE TS. ELIOT 
 
