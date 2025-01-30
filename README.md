@@ -24,52 +24,52 @@ Below is a list of works organized by the pairs of authors and genres:
 ***F. Scott Fitzgerald & Zelda Fitzgerald***
 
 `Novels`
-Tender is the Night- F. Scott Fitzgerald 
-The Great Gatsby- F. Scott Fitzgerald
-Save Me the Waltz- Zelda Fitzgerald
+- Tender is the Night- F. Scott Fitzgerald 
+- The Great Gatsby- F. Scott Fitzgerald
+- Save Me the Waltz- Zelda Fitzgerald
 
 `Short stories`
-The Beautiful and the Damned- F. Scott Fitzgerald
-The Girl the Prince Liked- Zelda Fitzgerald
-Eulogy on the Flapper- Zelda Fitzgerald
+- The Beautiful and the Damned- F. Scott Fitzgerald
+- The Girl the Prince Liked- Zelda Fitzgerald
+- Eulogy on the Flapper- Zelda Fitzgerald
 
 `Letters` 
-Letters To F. Scott Fitzgerald- Zelda Fitzgerald
+- Letters To F. Scott Fitzgerald- Zelda Fitzgerald
 
 `Plays`
-Scandalabra- Zelda Fitzgerald
-The Vegetable- F. Scott Fitzgerald
+- Scandalabra- Zelda Fitzgerald
+- The Vegetable- F. Scott Fitzgerald
 
 ***T.S Eliot & Vivienne Haigh-Wood Eliot***
 
 `Short Stories`
-Eeldrop and Appleplex (1917) - T.S Eliot
-Various Short Stories - Vivienne Eliot
+- Eeldrop and Appleplex (1917) - T.S Eliot
+- Various Short Stories - Vivienne Eliot
 
 `Letters`
-Excerpts from Letters 1914-1939 - T.S Eliot
-Excerpts from Letters 1914-1939 - Vivienne Eliot
+- Excerpts from Letters 1914-1939 - T.S Eliot
+- Excerpts from Letters 1914-1939 - Vivienne Eliot
 
 `Poems`
-The Waste Land (1922) - T.S Eliot
-A Song For Simeon (1928) - T.S Eliot
-La Figlia che Piange (1917) - T.S Eliot
-The Hollow Men (1925) - T.S Eliot
-Ash Wednesday (1930) - T.S Eliot
-The Love Song of J. Alfred Prufrock (1915) - T.S Eliot
-Song in the Night - Vivienne Eliot
-Bel Canto - Vivienne Eliot
-The Coliseum Dome - Vivienne Eliot
-Perque Domos Ditis Vacuas - Vivienne Eliot
-Necesse est Perstare (1925) - Vivienne Eliot
+- The Waste Land (1922) - T.S Eliot
+- A Song For Simeon (1928) - T.S Eliot
+- La Figlia che Piange (1917) - T.S Eliot
+- The Hollow Men (1925) - T.S Eliot
+- Ash Wednesday (1930) - T.S Eliot
+- The Love Song of J. Alfred Prufrock (1915) - T.S Eliot
+- Song in the Night - Vivienne Eliot
+- Bel Canto - Vivienne Eliot
+- The Coliseum Dome - Vivienne Eliot
+- Perque Domos Ditis Vacuas - Vivienne Eliot
+- Necesse est Perstare (1925) - Vivienne Eliot
 
 
 ***Mary Sidney & William Shakespeare***
 
 `Tragedies`
-The Tragedie of Antonie- Mary Sidney 
-Antony and Cleopatra- William Shakespeare
-(A Discourse of Life and Death- Mary Sidney in a separately conducted analysis) 
+- The Tragedie of Antonie- Mary Sidney 
+- Antony and Cleopatra- William Shakespeare
+- (A Discourse of Life and Death- Mary Sidney in a separately conducted analysis) 
 
 Other tragedies by Shakespeare used in the Normal Stylo:
 Romeo and Juliet
@@ -87,66 +87,66 @@ The corpus was expanded by adding authors of distraction, selected on certain cr
 ***F. Scott Fitzgerald & Zelda Fitzgerald*** 
 
 `Novels`
-A Farewell To Arms-Ernest Hemingway
-A Handful of Dust- Evelyn Waugh
-For Whom the Bell Tolls-Ernest Hemingway
-Mrs. Dalloway- Virginia Woolf
-The Autobiography of Alice B Toklas- Gertrude Stein
-The Sun Also Rises-Ernest Hemingway
-Three Lives- Gertrude Stein
-To Have and Have Not-Ernest Hemingway
-To the Lighthouse- Virginia Woolf
-Vile Bodies- Evelyn Waugh
+- A Farewell To Arms-Ernest Hemingway
+- A Handful of Dust- Evelyn Waugh
+- For Whom the Bell Tolls-Ernest Hemingway
+- Mrs. Dalloway- Virginia Woolf
+- The Autobiography of Alice B Toklas- Gertrude Stein
+- The Sun Also Rises-Ernest Hemingway
+- Three Lives- Gertrude Stein
+- To Have and Have Not-Ernest Hemingway
+- To the Lighthouse- Virginia Woolf
+- Vile Bodies- Evelyn Waugh
 
 `Short Stories`
-Big Blonde- Dorothy Parker
-G.M.P- Gertrude Stein
-In our time – Ernest Hemingway
-Kew Gardens- Virginia Woolf
-Men without women – Ernest Hemingway
-Mr. Loveday's Little Outing- Evelyn Waugh
-The Man Who Liked Dickens- Evelyn Waugh
-The New Dress- Virginia Woolf
+- Big Blonde- Dorothy Parker
+- G.M.P- Gertrude Stein
+- In our time – Ernest Hemingway
+- Kew Gardens- Virginia Woolf
+- Men without women – Ernest Hemingway
+- Mr. Loveday's Little Outing- Evelyn Waugh
+- The Man Who Liked Dickens- Evelyn Waugh
+- The New Dress- Virginia Woolf
 
 ***T.S Eliot & Vivienne Eliot***
 
 `Poems`
-Hugh Selwyn Mauberley - Ezra Pound
-The Cantos - Ezra Pound
-The Garden - Ezra Pound
-Few Figs from Thistles - Edna St. Vincent Millay
-Renascence - Edna St. Vincent Millay
-Spring - Edna St. Vincent Millay
-Eurydice - Hilda Doolittle
-Heliodora and Other Poems - Hilda Doolittle
-Sea Garden - Hilda Doolittle
-Poetry - Marianne Moore
-The Fish - Marianne Moore
-To a Snail - Marianne Moore
-The Idea of Order at Key West - Wallace Stevens
-The Snow Man - Wallace Stevens
-Thirteen Ways of Looking at a Blackbird - Wallace Stevens
-Sailing to Byzantium - William Butler Yeats
-The Second Coming - William Butler Yeats
-The Tower - William Butler Yeats
+- Hugh Selwyn Mauberley - Ezra Pound
+- The Cantos - Ezra Pound
+- The Garden - Ezra Pound
+- Few Figs from Thistles - Edna St. Vincent Millay
+- Renascence - Edna St. Vincent Millay
+- Spring - Edna St. Vincent Millay
+- Eurydice - Hilda Doolittle
+- Heliodora and Other Poems - Hilda Doolittle
+- Sea Garden - Hilda Doolittle
+- Poetry - Marianne Moore
+- The Fish - Marianne Moore
+- To a Snail - Marianne Moore
+- The Idea of Order at Key West - Wallace Stevens
+- The Snow Man - Wallace Stevens
+- Thirteen Ways of Looking at a Blackbird - Wallace Stevens
+- Sailing to Byzantium - William Butler Yeats
+- The Second Coming - William Butler Yeats
+- The Tower - William Butler Yeats
 
 `Short Stories`
-Literary Essays - Ezra Pound
-Make it new essays - Ezra Pound
-The Garden Party - Katherine Mansfield
-A Tragedy of Two Ambitions - Thomas Hardy
-Kew Gardens - Virginia Woolf
-The Binding of the Hair - William Butler Yeats
+- Literary Essays - Ezra Pound
+- Make it new essays - Ezra Pound
+- The Garden Party - Katherine Mansfield
+- A Tragedy of Two Ambitions - Thomas Hardy
+- Kew Gardens - Virginia Woolf
+- The Binding of the Hair - William Butler Yeats
 
 ***Mary Sidney & Shakespeare***
-The Spanish Tragedy- Thomas Kyd
-The Revenger’s Tragedy- Thomas Middleton
-Bussy d’Ambrois- George Chapman
-Catiline his Conspiracy- Ben Jonson
-Edward II- Christopher Marlowe
-Dr Faustus- Christopher Marlowe
-Sejanus his Fall- Ben Jonson
-The White Devil- John Webster
+- The Spanish Tragedy- Thomas Kyd
+- The Revenger’s Tragedy- Thomas Middleton
+- Bussy d’Ambrois- George Chapman
+- Catiline his Conspiracy- Ben Jonson
+- Edward II- Christopher Marlowe
+- Dr Faustus- Christopher Marlowe
+- Sejanus his Fall- Ben Jonson
+- The White Devil- John Webster
 
 
 ## Textual Analysis Tools
@@ -168,12 +168,11 @@ A searchable, digitized archive of literature analyzed within the study, includi
 #### Stylometric Profiles for Each Author Pair:
 With the help of tools such as Voyant and the Stylo package in R, stylometric profiles will be generated that quantify and compare lexical choices, sentence structures, and thematic preferences across the works of F. Scott Fitzgerald and Zelda Fitzgerald, T.S. Eliot and Vivienne Eliot, and Mary Sidney and William Shakespeare. The aim is to light up, with this insight, the connections and differences between each pair's literary contribution.
 
-Creators
+## Creators
 This dataset was created and curated by Theodora-Stavroula Korma, Olga Rojas Valle, Ece Demirtas & Letizia Maria Marietti on behalf of the course Tools and Methods, for the MA Digital Humanities.
 Contact Information: email: t.s.korma@student.rug.nl, email: o.rojas.valle@student.rug.nl, email: e.demirtas@student.rug.nl email: l.m.marietti@student.rug.nl
 
-
-Usage
+## Usage
 This dataset is provided for educational purposes, intended to support the group assignment for the course Tools and Methods, of 1b semester of MA Digital Humanities.
 
 
