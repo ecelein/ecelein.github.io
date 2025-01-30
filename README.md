@@ -1,21 +1,21 @@
 # "The Unseen Hand: Stylometric Analysis of Authorial Influence in Classic Literature"
 
 ### Corpus Overview
-This repository contains a dataset that consists of three different corpus subcategories: the works of T.S. Eliot and Vivienne Haigh-Wood Eliot, William Shakespeare and Mary Sidney's works, and F. Scott Fitzgerald with Zelda Fitzgerald. The project aims to identify stylistic characteristics and authorship issues by analyzing the corpus sets. The project will explore, through an empirical approach, how these authors were influential for and interacted with each other, paying particular attention to the possible textual and personal crossovers in their writings. For the purpose of the present analysis, visualization tools like Voyant and stylometric analysis techniques-including the Stylo package in R and Zeta analysis-are applied. It does this by supporting digital humanities research, textual analysis, and authorship attribution through a searchable corpus that investigates the stylistic and thematic connections among these writers.
+This repository contains a dataset that consists of three different corpus subcategories: the works of T.S. Eliot and Vivienne Haigh-Wood Eliot, William Shakespeare and Mary Sidney's works, and F. Scott Fitzgerald with Zelda Fitzgerald. The project aims to identify stylistic characteristics and authorship issues by analyzing the corpus sets. The project will explore, through an empirical approach, how these authors were influential for and interacted with each other, paying particular attention to the possible textual and personal crossovers in their writings. For the purpose of the present analysis, visualization tools like Voyant and stylometric analysis techniques-including the Stylo package in R and Zeta analysis were applied. It does this by supporting digital humanities research, textual analysis, and authorship attribution through a searchable corpus that investigates the stylistic and thematic connections among these writers.
 
 ### Corpus Description
-The dataset includes a carefully curated selection of works of the authors’ pairs. These works are divided in genres, and represent diverse themes of the 16th, 17th, late 19th and 20th centuries.
+The dataset includes a carefully curated selection of works of the authors’ pairs. These works are divided into genres and represent diverse themes of the 16th, 17th, late 19th and 20th centuries.
 Highlights of the Corpus:
-16th Century & 17th century: William Shakespeare
-Late 19th Century & 20th century:  F. Scott Fitzgerald & Zelda Fitzgerald, T.S. Eliot & Vivienne Haigh- Wood Eliot. 🡪 the Jazz Age, the Lost Generation, the American dream, the Modernist movement. 
+16th Century & 17th Century: William Shakespeare
+Late 19th Century & 20th Century:  F. Scott Fitzgerald & Zelda Fitzgerald, T.S. Eliot & Vivienne Haigh- Wood Eliot. 🡪 the Jazz Age, the Lost Generation, the American Dream, and the Modernist movement. 
 
 ### Selection criteria: 
 
 - Empirical Assumptions for Research: Books selected during the investigation had to have assumptions or hypotheses that were in need of further research. This category also includes works that may possess historical, stylistic, and thematic relations that need deeper analysis.
 
-- Lack of previous research: As far as the project could perceive, preference has been given to books and author pairs without comprehensive research so that the project should be able to contribute new insights to under-explored literary relationships and stylistic patterns.
+- Lack of previous research: As far as the project could perceive, preference has been given to books and author pairs without comprehensive research so the project should be able to contribute new insights into under-explored literary relationships and stylistic patterns.
 
-- Accessibility for Extraction: Books were also selected to have a source in public digital repositories, allowing it to be extracted. Among others, sources freely available include the Project Gutenberg digital library and other open digital libraries, thus enabling one to include only those works that had sufficient digital records to analyze with research.
+- Accessibility for Extraction: Books were also selected to have a source in public digital repositories, allowing them to be extracted. Among others, sources freely available include the Project Gutenberg digital library and other open digital libraries, thus enabling one to include only those works that had sufficient digital records to analyze with research.
 
 ### Included Works
 
@@ -24,7 +24,7 @@ F. Scott Fitzgerald & Zelda Fitzgerald:
 Novels: 
 Tender is the Night- F. Scott Fitzgerald 
 The Great Gatsby- F. Scott Fitzgerald
-Save me the Waltz- Zelda Fitzgerald
+Save Me the Waltz- Zelda Fitzgerald
 
 Short stories: 
 The Beautiful and the Damned- F. Scott Fitzgerald
@@ -59,7 +59,7 @@ Troilus and Cressida
 
 
 
-The corpus expanded by adding authors of distraction, selected on certain criteria that ensure completeness and comparison. These include sharing a genre and themes of writing, falling in the same era of writing, and having some connection or relevance to the primary authors. These distractor authors allowed a deeper analysis of stylistic patterns, thematic overlaps, and potential influences. These include: 
+The corpus was expanded by adding authors of distraction, selected on certain criteria that ensure completeness and comparison. These include sharing a genre and themes of writing, falling in the same era of writing, and having some connection or relevance to the primary authors. These distractor authors allowed a deeper analysis of stylistic patterns, thematic overlaps, and potential influences. These include: 
 For F. Scott Fitzgerald & Zelda Fitzgerald: 
 Novels: 
 A Farewell To Arms-Ernest Hemingway
