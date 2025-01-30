@@ -21,22 +21,22 @@ function generateMenu(containerId) {
                 <li>
                   <a href="#"> F. Scott Fitzgerald ▾</a>
                   <ul>
-                    <li><a href="/Website/subpages/introduction_scott.html">Introduction</a></li>
+                    <li><a href="/subpages/introduction_scott.html">Introduction</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="#">Zelda Fitzgerald ▾</a>
                   <ul>
-                    <li><a href="/Website/subpages/introduction_zelda.html">Introduction</a></li>
+                    <li><a href="/subpages/introduction_zelda.html">Introduction</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="#">Analysis ▾</a>
                   <ul>
-                    <li><a href="/Website/subpages/empirical_assumption_fitzgerald.html">Empirical Assumption</a></li>
-                    <li><a href="/Website/subpages/normal_stylo_fitzgerald.html">Stylo</a></li>
-                    <li><a href="/Website/subpages/voyant_fitzgerald.html">Voyant</a></li>
-                    <li><a href="/Website/subpages/zeta_fitzgerald.html">Zeta Analysis</a></li>
+                    <li><a href="/subpages/empirical_assumption_fitzgerald.html">Empirical Assumption</a></li>
+                    <li><a href="/subpages/normal_stylo_fitzgerald.html">Stylo</a></li>
+                    <li><a href="/subpages/voyant_fitzgerald.html">Voyant</a></li>
+                    <li><a href="/subpages/zeta_fitzgerald.html">Zeta Analysis</a></li>
                   </ul>
                 </li>
               </ul>
@@ -47,22 +47,22 @@ function generateMenu(containerId) {
                 <li>
                   <a href="#">T.S. Eliot ▾</a>
                   <ul>
-                    <li><a href="/Website/subpages/introduction_ts.html">Introduction</a></li>
+                    <li><a href="/subpages/introduction_ts.html">Introduction</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="#">Vivienne Haigh-Wood Eliot ▾</a>
                   <ul>
-                    <li><a href="/Website/subpages/introduction_vivi.html">Introduction</a></li>
+                    <li><a href="/subpages/introduction_vivi.html">Introduction</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="#">Analysis ▾</a>
                   <ul>
-                    <li><a href="/Website/subpages/empirical_assumption_eliot.html">Empirical Assumption</a></li>
-                    <li><a href="/Website/subpages/normal_stylo_eliot.html">Stylo</a></li>
-                    <li><a href="/Website/subpages/voyant_eliot.html">Voyant</a></li>
-                    <li><a href="/Website/subpages/zeta_eliot.html">Zeta Analysis</a></li>
+                    <li><a href="/subpages/empirical_assumption_eliot.html">Empirical Assumption</a></li>
+                    <li><a href="/subpages/normal_stylo_eliot.html">Stylo</a></li>
+                    <li><a href="/subpages/voyant_eliot.html">Voyant</a></li>
+                    <li><a href="/subpages/zeta_eliot.html">Zeta Analysis</a></li>
                   </ul>
                 </li>
               </ul>
@@ -73,22 +73,22 @@ function generateMenu(containerId) {
                 <li>
                   <a href="#">William Shakespeare ▾</a>
                   <ul>
-                    <li><a href="/Website/subpages/introduction_shakespeare.html">Introduction</a></li>
+                    <li><a href="/subpages/introduction_shakespeare.html">Introduction</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="#">Mary Sidney ▾</a>
                   <ul>
-                    <li><a href="/Website/subpages/introduction_sidney.html">Introduction</a></li>
+                    <li><a href="/subpages/introduction_sidney.html">Introduction</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="#">Analysis ▾</a>
                   <ul>
-                   <li><a href="/Website/subpages/empirical_assumption_sidneyspeare.html">Empirical Assumption</a></li>
-                    <li><a href="/Website/subpages/normal_stylo_sidneyspeare.html">Stylo</a></li>
-                    <li><a href="/Website/subpages/voyant_sidneyspeare.html">Voyant</a></li>
-                    <li><a href="/Website/subpages/zeta_sidneyspeare.html">Zeta Analysis</a></li>
+                   <li><a href="/subpages/empirical_assumption_sidneyspeare.html">Empirical Assumption</a></li>
+                    <li><a href="/subpages/normal_stylo_sidneyspeare.html">Stylo</a></li>
+                    <li><a href="/subpages/voyant_sidneyspeare.html">Voyant</a></li>
+                    <li><a href="/subpages/zeta_sidneyspeare.html">Zeta Analysis</a></li>
                   </ul>
                 </li>
               </ul>
@@ -102,13 +102,13 @@ function generateMenu(containerId) {
               <ul>
               </ul>
             </li>
-            <li><a href="/Website/subpages/problems.html">Problems</a></li>
-            <li><a href="/Website/subpages/limitations.html">Limitations</a></li>
-            <li><a href="/Website/subpages/recommendations.html">Recommendations</a></li>
+            <li><a href="/subpages/problems.html">Problems</a></li>
+            <li><a href="/subpages/limitations.html">Limitations</a></li>
+            <li><a href="/subpages/recommendations.html">Recommendations</a></li>
           </ul>
         </li>
-        <li><a href="/Website/subpages/about_us.html">About Us</a></li>
-        <li><a href="/Website/subpages/references.html">References</a></li>
+        <li><a href="/subpages/about_us.html">About Us</a></li>
+        <li><a href="/subpages/references.html">References</a></li>
       </ul>
     </div>
   `;
