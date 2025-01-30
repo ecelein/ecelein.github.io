@@ -21,7 +21,7 @@ Late 19th Century & 20th Century:  F. Scott Fitzgerald & Zelda Fitzgerald, T.S. 
 
 Below is a list of works organized by the pairs of authors and genres:
 
-***F. Scott Fitzgerald & Zelda Fitzgerald***: 
+***F. Scott Fitzgerald & Zelda Fitzgerald***
 
 `Novels`: 
 Tender is the Night- F. Scott Fitzgerald 
@@ -40,11 +40,33 @@ Letters To F. Scott Fitzgerald- Zelda Fitzgerald
 Scandalabra- Zelda Fitzgerald
 The Vegetable- F. Scott Fitzgerald
 
+***T.S Eliot & Vivienne Haigh-Wood Eliot***
 
-ADD HERE TS. ELIOT 
+`Short Stories`:
+Eeldrop and Appleplex (1917) - T.S Eliot
+Various Short Stories - Vivienne Eliot
 
-Mary Sidney and William Shakespeare:
-Tragedies:
+`Letters`:
+Excerpts from Letters 1914-1939 - T.S Eliot
+Excerpts from Letters 1914-1939 - Vivienne Eliot
+
+`Poems`:
+The Waste Land (1922) - T.S Eliot
+A Song For Simeon (1928) - T.S Eliot
+La Figlia che Piange (1917) - T.S Eliot
+The Hollow Men (1925) - T.S Eliot
+Ash Wednesday (1930) - T.S Eliot
+The Love Song of J. Alfred Prufrock (1915) - T.S Eliot
+Song in the Night - Vivienne Eliot
+Bel Canto - Vivienne Eliot
+The Coliseum Dome - Vivienne Eliot
+Perque Domos Ditis Vacuas - Vivienne Eliot
+Necesse est Perstare (1925) - Vivienne Eliot
+
+
+***Mary Sidney & William Shakespeare***
+
+`Tragedies`:
 The Tragedie of Antonie- Mary Sidney 
 Antony and Cleopatra- William Shakespeare
 (A Discourse of Life and Death- Mary Sidney in a separately conducted analysis) 
@@ -60,11 +82,10 @@ Coriolanus
 Titus Andronicus
 Troilus and Cressida
 
-
-
 The corpus was expanded by adding authors of distraction, selected on certain criteria that ensure completeness and comparison. These include sharing a genre and themes of writing, falling in the same era of writing, and having some connection or relevance to the primary authors. These distractor authors allowed a deeper analysis of stylistic patterns, thematic overlaps, and potential influences. These include: 
-For F. Scott Fitzgerald & Zelda Fitzgerald: 
-Novels: 
+
+***F. Scott Fitzgerald & Zelda Fitzgerald*** 
+`Novels`:
 A Farewell To Arms-Ernest Hemingway
 A Handful of Dust- Evelyn Waugh
 For Whom the Bell Tolls-Ernest Hemingway
@@ -76,7 +97,7 @@ To Have and Have Not-Ernest Hemingway
 To the Lighthouse- Virginia Woolf
 Vile Bodies- Evelyn Waugh
 
-Short stories: 
+`Short Stories`:
 Big Blonde- Dorothy Parker
 G.M.P- Gertrude Stein
 In our time – Ernest Hemingway
@@ -86,8 +107,37 @@ Mr. Loveday's Little Outing- Evelyn Waugh
 The Man Who Liked Dickens- Evelyn Waugh
 The New Dress- Virginia Woolf
 
-ADD HERE DISTRACTORS FOR ELIOT 
-Mary Sidney and Shakespeare:
+***T.S Eliot & Vivienne Eliot***
+
+`Poems`:
+Hugh Selwyn Mauberley - Ezra Pound
+The Cantos - Ezra Pound
+The Garden - Ezra Pound
+Few Figs from Thistles - Edna St. Vincent Millay
+Renascence - Edna St. Vincent Millay
+Spring - Edna St. Vincent Millay
+Eurydice - Hilda Doolittle
+Heliodora and Other Poems - Hilda Doolittle
+Sea Garden - Hilda Doolittle
+Poetry - Marianne Moore
+The Fish - Marianne Moore
+To a Snail - Marianne Moore
+The Idea of Order at Key West - Wallace Stevens
+The Snow Man - Wallace Stevens
+Thirteen Ways of Looking at a Blackbird - Wallace Stevens
+Sailing to Byzantium - William Butler Yeats
+The Second Coming - William Butler Yeats
+The Tower - William Butler Yeats
+
+`Short Stories`:
+Literary Essays - Ezra Pound
+Make it new essays - Ezra Pound
+The Garden Party - Katherine Mansfield
+A Tragedy of Two Ambitions - Thomas Hardy
+Kew Gardens - Virginia Woolf
+The Binding of the Hair - William Butler Yeats
+
+***Mary Sidney & Shakespeare***
 The Spanish Tragedy- Thomas Kyd
 The Revenger’s Tragedy- Thomas Middleton
 Bussy d’Ambrois- George Chapman
