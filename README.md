@@ -7,7 +7,7 @@ This repository contains a dataset that consists of three different corpus subca
 The dataset includes a carefully curated selection of works of the authors’ pairs. These works are divided into genres and represent diverse themes of the 16th, 17th, late 19th and 20th centuries.
 Highlights of the Corpus:
 16th Century & 17th Century: William Shakespeare
-Late 19th Century & 20th Century:  F. Scott Fitzgerald & Zelda Fitzgerald, T.S. Eliot & Vivienne Haigh- Wood Eliot. 🡪 the Jazz Age, the Lost Generation, the American Dream, and the Modernist movement. 
+Late 19th Century & 20th Century:  F. Scott Fitzgerald & Zelda Fitzgerald, T.S. Eliot & Vivienne Haigh-Wood Eliot. 🡪 the Jazz Age, the Lost Generation, the American Dream, and the Modernist movement. 
 
 `Selection criteria`: 
 
@@ -83,7 +83,7 @@ In our time – Ernest Hemingway
 Kew Gardens- Virginia Woolf
 Men without women – Ernest Hemingway
 Mr. Loveday's Little Outing- Evelyn Waugh
-The man who liked Dickens- Evelyn Waugh
+The Man Who Liked Dickens- Evelyn Waugh
 The New Dress- Virginia Woolf
 
 ADD HERE DISTRACTORS FOR ELIOT 
@@ -116,21 +116,6 @@ A searchable, digitized archive of literature analyzed within the study, includi
  An interactive visualization approach, including word clouds, term frequency graphs, and Zeta analysis outputs, provides more accessible insights into stylistic and thematic contrasts within and between any two chosen authors. These will summarize regular patterns, common influences, and distinct writing characteristics.
 #### Stylometric Profiles for Each Author Pair:
 With the help of tools such as Voyant and the Stylo package in R, stylometric profiles will be generated that quantify and compare lexical choices, sentence structures, and thematic preferences across the works of F. Scott Fitzgerald and Zelda Fitzgerald, T.S. Eliot and Vivienne Eliot, and Mary Sidney and William Shakespeare. The aim is to light up, with this insight, the connections and differences between each pair's literary contribution.
-
-## Terms and Conditions
-(This project utilizes public domain eBooks and content downloaded from Project Gutenberg.?, project Gutenberg Australia, https://fitzgerald.narod.ru/ , https://pdfcoffee.com/, project Gutenberg Canada, https://www.fadedpage.com/ , https://archive.org/ , https://www.libraryofshortstories.com/ , https://www.studocu.com/ , https://dpikeasuprep.weebly.com/ , Dracor https://dracor.org/)🡪 all these are the sources ONLY FOR FITZGERALD AND HIS DISTRACTORS. 
-ADD ELIOT 
-
-
-
-
-
-
-
-
-
-
-
 
 Creators
 This dataset was created and curated by Theodora-Stavroula Korma, Olga Rojas Valle, Ece Demirtas & Letizia Maria Marietti on behalf of the course Tools and Methods, for the MA Digital Humanities.
