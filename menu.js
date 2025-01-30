@@ -1,0 +1,144 @@
+function generateMenu(containerId) {
+  const container = document.getElementById(containerId);
+
+  if (!container) {
+    console.error(`Container with ID "${containerId}" not found.`);
+    return;
+  }
+
+  const menuHTML = `
+    <div id="burger-menu">
+      <span></span>
+    </div>
+    <div id="menu">
+      <ul>
+        <li>
+          <a href="#">Authors ▾</a>
+          <ul>
+            <li>
+              <a href="#"> F. Scott Fitzgerald and Zelda Fitzgerald ▾</a>
+              <ul>
+                <li>
+                  <a href="#"> F. Scott Fitzgerald ▾</a>
+                  <ul>
+                    <li><a href="/Website/subpages/introduction_scott.html">Introduction</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Zelda Fitzgerald ▾</a>
+                  <ul>
+                    <li><a href="/Website/subpages/introduction_zelda.html">Introduction</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Analysis ▾</a>
+                  <ul>
+                    <li><a href="/Website/subpages/empirical_assumption_fitzgerald.html">Empirical Assumption</a></li>
+                    <li><a href="/Website/subpages/normal_stylo_fitzgerald.html">Stylo</a></li>
+                    <li><a href="/Website/subpages/voyant_fitzgerald.html">Voyant</a></li>
+                    <li><a href="/Website/subpages/zeta_fitzgerald.html">Zeta Analysis</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">T.S. Eliot and Vivienne Haigh-Wood Eliot ▾</a>
+              <ul>
+                <li>
+                  <a href="#">T.S. Eliot ▾</a>
+                  <ul>
+                    <li><a href="/Website/subpages/introduction_ts.html">Introduction</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Vivienne Haigh-Wood Eliot ▾</a>
+                  <ul>
+                    <li><a href="/Website/subpages/introduction_vivi.html">Introduction</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Analysis ▾</a>
+                  <ul>
+                    <li><a href="/Website/subpages/empirical_assumption_eliot.html">Empirical Assumption</a></li>
+                    <li><a href="/Website/subpages/normal_stylo_eliot.html">Stylo</a></li>
+                    <li><a href="/Website/subpages/voyant_eliot.html">Voyant</a></li>
+                    <li><a href="/Website/subpages/zeta_eliot.html">Zeta Analysis</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">William Shakespeare and Mary Sidney ▾</a>
+              <ul>
+                <li>
+                  <a href="#">William Shakespeare ▾</a>
+                  <ul>
+                    <li><a href="/Website/subpages/introduction_shakespeare.html">Introduction</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Mary Sidney ▾</a>
+                  <ul>
+                    <li><a href="/Website/subpages/introduction_sidney.html">Introduction</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Analysis ▾</a>
+                  <ul>
+                   <li><a href="/Website/subpages/empirical_assumption_sidneyspeare.html">Empirical Assumption</a></li>
+                    <li><a href="/Website/subpages/normal_stylo_sidneyspeare.html">Stylo</a></li>
+                    <li><a href="/Website/subpages/voyant_sidneyspeare.html">Voyant</a></li>
+                    <li><a href="/Website/subpages/zeta_sidneyspeare.html">Zeta Analysis</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Tools ▾</a>
+          <ul>
+            <li>
+              <ul>
+              </ul>
+            </li>
+            <li><a href="/Website/subpages/problems.html">Problems</a></li>
+            <li><a href="/Website/subpages/limitations.html">Limitations</a></li>
+            <li><a href="/Website/subpages/recommendations.html">Recommendations</a></li>
+          </ul>
+        </li>
+        <li><a href="/Website/subpages/about_us.html">About Us</a></li>
+        <li><a href="/Website/subpages/references.html">References</a></li>
+      </ul>
+    </div>
+  `;
+
+  container.innerHTML = menuHTML;
+
+  initializeMenu();
+}
+
+function initializeMenu() {
+  const burgerMenu = document.getElementById("burger-menu");
+  const menuOverlay = document.getElementById("menu");
+
+  if (!burgerMenu || !menuOverlay) {
+    console.error("Menu elements are missing.");
+    return;
+  }
+
+  burgerMenu.addEventListener("click", function () {
+    menuOverlay.classList.toggle("overlay");
+    burgerMenu.classList.toggle("close");
+  });
+
+  document.querySelectorAll("#menu li > a").forEach((link) => {
+    link.addEventListener("click", function (e) {
+      const submenu = this.nextElementSibling;
+      if (submenu && submenu.tagName === "UL") {
+        e.preventDefault();
+        submenu.classList.toggle("open");
+      }
+    });
+  });
+}

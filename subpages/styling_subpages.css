@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap");
+
+body {
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "EB Garamond", serif;
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  visibility: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0;
+  z-index: 999
+}
+
+#menu.overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 10px 20px;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+#menu a:hover {
+  color: #d4af37;
+}
+
+#menu ul ul {
+  display: none;
+  padding-left: 20px;
+}
+
+#menu ul ul.open {
+  display: block;
+}
+
+#menu ul ul a {
+  font-size: 18px;
+}
+
+#menu ul ul ul a {
+  font-size: 16px;
+}
+
+#menu::-webkit-scrollbar {
+  width: 10px;
+}
+
+#menu::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+#menu::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+#burger-menu {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+#burger-menu span,
+#burger-menu span:before,
+#burger-menu span:after {
+  background: #fff;
+  display: block;
+  height: 5px;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+}
+
+#burger-menu span:before,
+#burger-menu span:after {
+  content: "";
+}
+
+#burger-menu span {
+  top: 13px;
+  width: 27px;
+}
+
+#burger-menu span:before {
+  top: -10px;
+  width: 20px;
+}
+
+#burger-menu span:after {
+  top: 10px;
+  width: 16px;
+}
+
+#burger-menu.close span {
+  transform: rotate(-45deg);
+  width: 27px;
+}
+
+#burger-menu.close span:before {
+  top: 0;
+  transform: rotate(90deg);
+  width: 27px;
+}
+
+#burger-menu.close span:after {
+  opacity: 0;
+  width: 0;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+/* center the blockquote in the page */
+.blockquote-wrapper {
+   display: flex;
+   height: 50vh;
+   padding: 0 20px;
+}
+
+/* Blockquote main style */
+.blockquote {
+    position: relative;
+    font-family: 'EB Garamond', sans-serif;
+    max-width: 620px;
+    margin: 50px auto;
+    align-self: center;
+}
+
+/* Blockquote header */
+.blockquote h1 {
+    font-family: 'EB Garamond', cursive;
+    position: relative; /* for pseudos */
+    color: #e74848;
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    border: 2px solid #fff;
+    border: solid 2px;
+    border-radius:20px;
+    padding: 25px;
+}
+
+/* Blockquote right double quotes */
+.blockquote h1:after {
+    content:"";
+    position: absolute;
+    border: 2px solid #e74848;
+    border-radius: 0 100% 0 0;
+    width: 60px;
+    height: 60px;
+    bottom: -62px;
+    left: 50px;
+    border-bottom: none;
+    border-left: none;
+    z-index: 3; 
+}
+
+.blockquote h1:before {
+    content:"";
+    position: absolute;
+    width: 80px;
+    border: 6px solid #000000;
+    bottom: -3px;
+    left: 50px;
+    z-index: 2;
+}
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+    .blockquote h1 {
+        font-size: 3rem;
+        line-height: 1.2;
+   }
+
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+    position: relative;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    padding-top: 15px;
+    z-index: 1;
+    margin-left:150px;
+    padding-left:12px;
+}
+
+ 
+.blockquote h4:first-letter {
+  margin-left:-12px;
+}
+img {
+  float: left;
+  height:250px;
+ padding-left: 100px;
+}
+.module {
+  max-width: 620px; /* Limit width of the block */
+  padding: 1rem;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  font-size: larger;
+  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+  border-radius: 10px; /* Add rounded corners */
+  margin: 20px auto; /* Center the block and add space around it */
+  text-align: justify; /* Align the paragraph text */
+}
+
+.analyses {
+  float: left; /* Float images to the left */
+  margin: 0 20px 20px 0; /* Add spacing around the images */
+  width: 700px; /* Set a consistent width for the images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center; /* Center the headings */
+  margin: 30px 0; /* Add spacing above and below */
+}
+
+h3 {
+  color: #ffffff; /* Ensure all h3 headings are white */
+  text-align: left; /* Align to the left */
+  margin: 15px 0; /* Add spacing above and below */
+}
+
+p {
+  font-size: 16pt;
+  color: #fff;
+  text-align: justify; /* Align the text for better readability */
+  line-height: 1.6; /* Improve line spacing */
+  margin: 20px; /* Add consistent spacing around paragraphs */
+}
+
+.analyses {
+  float: left; /* Float images to the left */
+  margin: 0 20px 20px 50px; /* Add more space on the left */
+  width: 700px; /* Set a consistent width for the images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center; /* Center the headings */
+  margin: 30px 0; /* Add spacing above and below */
+}
+
+h3 {
+  color: #ffffff; /* Ensure all h3 headings are white */
+  text-align: left; /* Align to the left */
+  margin: 15px 0; /* Add spacing above and below */
+  padding-left: 50px; /* Add space from the left */
+}
+
+p {
+  font-size: 16pt;
+  color: #fff;
+  text-align: justify; /* Align the text for better readability */
+  line-height: 1.6; /* Improve line spacing */
+  margin: 20px 50px; /* Add consistent spacing around paragraphs */
+}
+
+.analysis-section {
+  overflow: hidden; /* Clear floats for each section */
+  margin-bottom: 40px; /* Add space between sections */
+}
+
+.analysis-section p {
+  margin: 20px 50px; /* Add consistent spacing for paragraphs */
+}
+
+ul {
+  list-style: square; /* Add square bullets */
+  color: #fff; /* Match list item color to the text */
+  margin: 20px 50px; /* Increase left margin to move away from the edge */
+  padding-left: 20px; /* Add padding for consistent indentation */
+}
+
+ul h3 {
+  color: #ffffff; /* Ensure list section headings are white */
+  font-size: 18pt; /* Larger font size for list headings */
+  margin: 15px 0; /* Add spacing above and below */
+  padding-left: 50px; /* Add space for alignment within the list */
+}
+
+ul li {
+  color: #fff; /* Ensure list items are white */
+  margin: 5px 0; /* Add spacing between list items */
+  font-size: 14pt; /* Ensure font size matches overall design */
+  line-height: 1.4; /* Adjust line spacing for better readability */
+  padding-left: 35px; /* Add more indentation for list items */
+}
+
+blockquote {
+  color: #fff;
+  font-size: 18px;
+}
+
+u {
+  color: #fff;
+  font-size: 24px;
+}

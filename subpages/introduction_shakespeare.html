@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>William Shakespeare</title>
+    <link rel="stylesheet" href="styling_subpages.css" />
+  </head>
+  <body>
+    <div id="menu-container"></div>
+
+    <h1> William Shakespeare (1564 - 1616) </h1>
+    <div class="blockquote-wrapper">
+      <div class="blockquote">
+        <h1>
+          "My <span style="color:#ffffff"> words </span> fly up, my <span style="color:#ffffff"> thoughts </span> remain below:
+          Words <span style="color:#ffffff"> without </span> thoughts never to heaven go."
+        </h1>
+        <h4>&mdash; William Shakespeare<br /><em>Hamlet, Act 3 - Scene 3</em></h4>
+      </div>
+    </div>
+
+    <!-- Image and Text Container -->
+    <div class="content-container">
+        <img src="../images/shakespeare.png" alt="Shakespeare" />
+        <div class="module">
+          William Shakespeare (c. 23 April 1564 – 23 April 1616) was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist.He is often called England's national poet and the "Bard of Avon" (or simply "the Bard"). His extant works, including collaborations, consist of some 39 plays, 154 sonnets, three long narrative poems and a few other verses, some of uncertain authorship. His plays have been translated into every major living language and are performed more often than those of any other playwright. Shakespeare remains arguably the most influential writer in the English language, and his works continue to be studied and reinterpreted.
+        </div>
+      </div>
+
+    <script src="../menu.js" defer></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        generateMenu("menu-container");
+      });
+    </script>
+  </body>
+</html>
