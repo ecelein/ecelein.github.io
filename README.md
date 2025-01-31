@@ -72,14 +72,14 @@ Below is a list of works organized by the pairs of authors and genres:
 - (A Discourse of Life and Death- Mary Sidney in a separately conducted analysis) 
 
 Other tragedies by Shakespeare used in the Normal Stylo:
-Romeo and Juliet
-Hamlet
-Othello
-The Life of Timon of Athens
-King Lear
-Julius Caesar
-Coriolanus
-Titus Andronicus
+Romeo and Juliet,
+Hamlet,
+Othello,
+The Life of Timon of Athens,
+King Lear,
+Julius Caesar,
+Coriolanus,
+Titus Andronicus,
 Troilus and Cressida
 
 The corpus was expanded by adding authors of distraction, selected on certain criteria that ensure completeness and comparison. These include sharing a genre and themes of writing, falling in the same era of writing, and having some connection or relevance to the primary authors. These distractor authors allowed a deeper analysis of stylistic patterns, thematic overlaps, and potential influences. These include: 
