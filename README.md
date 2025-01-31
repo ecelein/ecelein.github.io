@@ -6,8 +6,10 @@ This repository contains a dataset that consists of three different corpus subca
 ### Corpus Description
 The dataset includes a carefully curated selection of works of the authors’ pairs. These works are divided into genres and represent diverse themes of the 16th, 17th, late 19th and 20th centuries.
 Highlights of the Corpus:
-16th Century & 17th Century: William Shakespeare
-Late 19th Century & 20th Century:  F. Scott Fitzgerald & Zelda Fitzgerald, T.S. Eliot & Vivienne Haigh-Wood Eliot. 🡪 the Jazz Age, the Lost Generation, the American Dream, and the Modernist movement. 
+
+***16th Century & 17th Century***: William Shakespeare
+
+***Late 19th Century & 20th Century***:  F. Scott Fitzgerald & Zelda Fitzgerald, T.S. Eliot & Vivienne Haigh-Wood Eliot representing the Jazz Age, the Lost Generation, the American Dream, and the Modernist movement. 
 
 `Selection criteria`
 
