@@ -89,7 +89,7 @@ Troilus and Cressida
 
 The corpus was expanded by adding authors of distraction, selected on certain criteria that ensure completeness and comparison. These include sharing a genre and themes of writing, falling in the same era of writing, and having some connection or relevance to the primary authors. These distractor authors allowed a deeper analysis of stylistic patterns, thematic overlaps, and potential influences. These include: 
 
-***F. Scott Fitzgerald & Zelda Fitzgerald*** 
+***For F. Scott Fitzgerald & Zelda Fitzgerald*** 
 
 `Novels`
 - A Farewell To Arms-Ernest Hemingway
@@ -113,7 +113,7 @@ The corpus was expanded by adding authors of distraction, selected on certain cr
 - The Man Who Liked Dickens- Evelyn Waugh
 - The New Dress- Virginia Woolf
 
-***T.S Eliot & Vivienne Eliot***
+***For T.S Eliot & Vivienne Eliot***
 
 `Poems`
 - Hugh Selwyn Mauberley - Ezra Pound
@@ -143,7 +143,7 @@ The corpus was expanded by adding authors of distraction, selected on certain cr
 - Kew Gardens - Virginia Woolf
 - The Binding of the Hair - William Butler Yeats
 
-***Mary Sidney & Shakespeare***
+***For Mary Sidney & Shakespeare***
 - The Spanish Tragedy- Thomas Kyd
 - The Revenger’s Tragedy- Thomas Middleton
 - Bussy d’Ambrois- George Chapman
