@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stylo of Fitzgeralds</title>
+    <link rel="stylesheet" href="styling_subpages.css" />
+  </head>
+  <body>
+    <div id="menu-container"></div>
+    <h1>Normal Stylo Analysis of Novels</h1>
+
+    <div class="analysis-section">
+
+      <img src="/images/fitz_stylo_1.png" class="analyses" alt="1-gram dendrogram">
+      <h2>1-GRAM</h2>
+      <p><b>NOTES:</b><br>
+      Cluster Analysis Dendrogram<br>
+      Ngram =1<br>
+      ○ Emphasizes individual word frequency and broad stylistic patterns.<br>
+      ○ Clear grouping by author.</p>
+
+      <p><b>Clusters:</b><br>
+      The two texts by F. Scott Fitzgerald ("The Great Gatsby" and "Tender Is The Night") cluster together, indicating stylistic similarities.<br>
+      The works of Fitzgerald are stylistically closer to each other than to the works of Zelda Fitzgerald.<br>
+      <b>Classical Delta Distance:</b><br>
+      The x-axis represents the Classical Delta Distance, a measure of stylistic similarity.<br>
+      The smaller the horizontal distance between the branches, the more similar the styles are. Higher the distance, lower the similarity.</p>
+
+      <p>Zelda's "Save Me The Waltz" shows moderate proximity to F. Scott's works, but her other texts differ significantly, being almost 1 point apart on the delta distance scale.</p>
+
+      <p>The grouping suggests clear stylistic distinctions between the works of F. Scott Fitzgerald and Zelda Fitzgerald, despite the fact that they work in the same literary tones, with common themes.</p>
+
+      <p><b>1-Gram Analysis:</b><br>
+      ● Structure:<br>
+      ○ The clustering focuses on the most frequent individual words (1-grams).<br>
+      ○ Works by the same author are grouped closely together. For example:<br>
+      - Hemingway's novels form a tight cluster on the bottom right, Fitzgerald's works are closely linked to Zelda Fitzgerald's Save Me the Waltz, and Woolf’s works cluster together but are slightly separate from the Fitzgerald group.<br>
+      ○ The clustering suggests that authors have distinct word usage patterns.<br>
+      ○ The split between Woolf and Stein suggests divergent stylistic tendencies from the other authors.</p>
+
+      
+    </div>
+
+    <hr>
+
+    <div class="analysis-section">
+
+      <img src="/images/fitz_stylo_2.png" class="analyses" alt="Bigram dendrogram">
+      <h2>BI-GRAM</h2>
+      <p><b>Hierarchical cluster analysis dendrogram:</b><br>
+      ○ Captures common word pairings, reflecting shared expressions and stylistic nuances.<br>
+      ○ Authorial clustering remains robust.</p>
+
+      <p>It uses the Classical Delta Distance, which measures stylistic differences between texts based on the most frequent words (MFW), here it is bigram → focuses on the frequency of 2 words together in the works (sequences of two consecutive words in text).</p>
+
+      <p>2-grams reflect recurring patterns of word pairs, which are influenced by an author's stylistic choices in phrasing, sentence construction, and use of collocations (common word pairs). Single-word frequency counts (1 gram) can often be dominated by function words (like "the", "and", "or") that are common to all authors, while 2 grams provide richer, more nuanced data by combining these words into pairs.</p>
+
+      <p><b>Observations:</b><br>
+      ● Scott Fitzgerald's texts ["The Great Gatsby" and "Tender Is the Night"] are grouped together, indicating that they are stylistically closer to each other.<br>
+      ● Zelda Fitzgerald's texts:<br>
+      - "Save Me the Waltz" (green one) is stylistically closer to F. Scott Fitzgerald's works than to her other writings. Thus, it supports the idea that Zelda's "Save Me the Waltz" has some stylistic similarities to F. Scott Fitzgerald's writing, which is in line with observations about their shared influence. → 2-gram analysis can reduce "noise" compared to single-word analysis, resulting in more precise clusters.<br>
+      The fact that "Save Me the Waltz" is closer to F. Scott Fitzgerald's works could suggest common patterns in sentence structure or phraseology.</p>
+
+      <p><b>Limitation of 2-grams:</b><br>
+      While 2-grams capture richer patterns, they may miss broader contextual or thematic elements that larger n-grams (3 grams or more) or other methods may capture. → we need to make 4-gram.</p>
+
+      <p><b>2-Gram Analysis:</b><br>
+      ● Structure:<br>
+      ○ The analysis shifts to common word pairs (2-grams), capturing short phrases or word sequences.<br>
+      ○ The clustering still reflects authorial similarity:<br>
+      ■ Hemingway's novels form a distinct subgroup.<br>
+      ■ Fitzgerald's novels remain closely grouped but not close with Zelda Fitzgerald's work.<br>
+      ■ Woolf and Stein are clustered distinctly but differently than in the 1-gram analysis.<br>
+      ○ The 2-gram analysis provides a finer stylistic granularity, grouping texts by shared phrasing tendencies.<br>
+      ○ Hemingway's clustering tightens slightly, reflecting his reliance on recurring short phrases or expressions.</p>
+
+     
+    </div>
+
+    <hr>
+
+    
+    <div class="analysis-section">
+      <h2>4-GRAM</h2>
+      <img src="/images/fitz_stylo_3.png" class="analyses" alt="4-gram dendrogram">
+      <p><b>Hierarchical cluster analysis dendrogram:</b><br>
+      4-gram: sequences of four consecutive words<br>
+      ○ Focuses on longer recurring phrases, providing deeper insights into narrative structure and style.<br>
+      ○ Distinctions between authors become sharper.</p>
+
+      <p><b>Clusters:</b><br>
+      "Tender Is the Night" (F. Scott) and "Save Me the Waltz" (Zelda) cluster closely, showing strong stylistic similarity at the 4-gram level.<br>
+      "The Great Gatsby" (F. Scott) forms a distinct cluster, but is still closer to Zelda's "Save Me the Waltz" than Zelda's other works.</p>
+
+      <p><b>Delta Distance:</b><br>
+      The x-axis shows the degree of stylistic dissimilarity between texts based on the 4-gram feature set.</p>
+
+      <p><b>Similarities with bi-gram:</b><br>
+      On both bi-gram and 4-gram → Zelda’s novel "Save Me the Waltz" is consistently closer to F. Scott Fitzgerald's works in both analyses → shared stylistic features.</p>
+
+      <p><b>4-Gram Analysis:</b><br>
+      ● Structure:<br>
+      ○ Clustering focuses on recurring sequences of four words (4-grams), emphasizing stylistic patterns in phrasing.<br>
+      ○ Hemingway’s cluster shifts slightly, with "For Whom the Bell Tolls" diverging from the rest.<br>
+      ○ Fitzgerald’s works remain central but are more closely linked to Hemingway’s "To Have and Have Not."<br>
+      ○ Woolf and Stein retain separate clusters, but their distinction from Fitzgerald's and Hemingway’s works becomes clearer.<br>
+      ○ Longer n-grams highlight stylistic similarities in longer recurring phrases.<br>
+      ○ Hemingway’s reliance on distinctive, terse phrasing causes his cluster to remain robust.<br>
+      ○ Woolf’s narrative style appears consistently separate.</p>
+
+     
+    </div>
+
+
+    <div class="analysis-section">
+      <h2>COMBINED ANALYSIS</h2>
+      <p><b>Differences:</b><br>
+      In the 2-gram, the works of Scott Fitzgerald form a tight cluster that indicates the stylistic similarity of the 2 works, while in the 4-gram, they are separated and Tender is the Night is closely combined with Save me the Waltz, a fact that is a high indicator of the possibility of Zelda's literary productions being stolen by her husband, the latter adopting the husband's writing style. This is a hypothesis that may be valid given that Zelda's novel was published in 1932 and Tender is the Night in 1934.<br>
+      → Also, the 4-gram analysis captures larger, more specific patterns of phrasing and syntax compared to the 2-gram analysis. This may explain why Tender Is the Night appears closer to Save Me the Waltz → they as well focus on same subjects > mental illness, marriage.</p>
+
+      <p>Both methods agree on the specificity of Zelda's smaller works, emphasizing her stylistic individuality in these pieces.</p>
+
+      <p><b>Comparative Analysis:</b><br>
+      ● Hemingway’s Novels:<br>
+      ○ In all analyses, Hemingway’s works consistently form tight clusters, showing his unique and distinctive style.<br>
+      ○ The shift in clustering with longer n-grams (e.g., For Whom the Bell Tolls separating) indicates subtle variations in phrasing across his works.<br>
+      ● Fitzgerald’s Novels:<br>
+      ○ Fitzgerald’s cluster is stable across all n-grams, reflecting his cohesive stylistic identity.<br>
+      ○ Zelda Fitzgerald’s Save Me the Waltz is (more in 1-gram and 4-gram) associated with Scott Fitzgerald’s works, suggesting a shared stylistic influence.<br>
+      ● Virginia Woolf:<br>
+      ○ Woolf’s works consistently form their own cluster, reflecting her distinct narrative techniques.<br>
+      ○ In the 4-gram analysis, her separation from other authors becomes more pronounced, highlighting the unique structure of her prose.<br>
+      ● Gertrude Stein:<br>
+      ○ Stein’s clustering remains distinct, showing her experimental style.<br>
+      ● Evelyn Waugh:<br>
+      ○ Waugh’s works cluster consistently but show more variability in the 2-gram and 4-gram analyses, reflecting stylistic diversity.</p>
+
+      <p><b>CONSENSUS TREE CANNOT BE GENERATED BECAUSE:</b><br>
+      Data Quality or Similarity Between Texts<br>
+      Even though WE have 13 texts, they may be too similar to each other in terms of style, vocabulary, or structure. If the texts don't vary enough, the consensus tree may not be able to identify distinct clusters, which could result in fewer iterations being needed or an error.</p>
+
+
+      <h1>Normal Stylo Analysis of Short Stories</h1>
+
+
+      <h2>Cluster analysis with stylo 1-gram</h2>
+
+      <img src="/images/fitz_stylo_4.png" class="analyses">
+      <p><b>Analysis:</b><br>
+      Cluster analysis based on single-word frequencies (1-grams). This analysis clusters texts based on the frequency of single words ("1-grams"). The results indicate:<br>
+      Zelda’s "The Girl The Prince Liked" clusters more closely with Scott’s "The Beautiful and Damned", while Zelda's "Eulogy On The Flapper" is more distant.<br>
+      → This suggests that Scott’s single-word usage in "The Beautiful and Damned" is more similar to "The Girl The Prince Liked" than it is to "Eulogy On The Flapper."</p>
+
+      <p><b>Main Observations:</b><br>
+      ■ Gertrude Stein's "G.M.P" is distinctly separated from the other texts, indicating a unique stylistic signature.<br>
+      ■ Zelda Fitzgerald's works ("The Girl the Prince Liked" and "Eulogy on the Flapper") do not group together, as we expected, suggesting a stylistic difference.<br>
+      ■ Hemingway's works ("In Our Time" and "Men Without Women") are closely linked and cluster together.<br>
+      ■ Virginia Woolf's stories ("Kew Gardens" and "The New Dress") also form a distinct sub-group, implying consistent stylistic traits within her writing.<br>
+      ■ Dorothy Parker's "Big Blonde" clusters with F. Scott Fitzgerald's "The Beautiful and the Damned," indicating some stylistic overlap.<br>
+      ■ Evelyn Waugh’s works are clustered together as expected, suggesting a writing similarity.<br>
+      This clustering shows clear separations between authors, but some overlaps occur, such as between Dorothy Parker and F. Scott Fitzgerald.</p>
+
+      <h2>Bi-gram</h2>
+      <img src="/images/fitz_stylo_5.png" class="analyses">
+      <p><b>Cluster analysis with stylo 2-gram (consecutive two-word phrases):</b><br>
+      ● Again, Zelda’s "The Girl The Prince Liked" is more close to Scott’s "The Beautiful and Damned" than it is to her own "Eulogy On The Flapper."<br>
+      ● However, the hierarchical grouping between suggests slightly more overlap in stylistic patterns.<br>
+      ● Also, the distance is closer to 1.2 which means while they are clustered together they also have differences.</p>
+
+      <p><b>Overview:</b><br>
+      This analysis uses the frequency of two-word sequences ("2-grams"), which better captures word pairings.<br>
+      ■ Gertrude Stein's work remains highly distinct from the rest, confirming her unique stylistic patterns even at a structural level.<br>
+      ■ Zelda Fitzgerald's works ("The Girl the Prince Liked" and "Eulogy on the Flapper") are now closely clustered, indicating that she used in both works similar word pairings.<br>
+      ■ Virginia Woolf's works shift slightly in their grouping but retain a close connection, and also her work “Kew Gardens” is close to Scott Fitzgerald’s work “The Beautiful and the Damned” suggesting overlaps in phrasal patterns, while it is also close to Evelyn Waugh’s work “The Man Who Liked Dickens.”<br>
+      ■ Dorothy Parker's "Big Blonde" shows more variation compared to the 1-gram results, now clustering closer to Waugh.<br>
+      The 2-gram analysis introduces slight shifts in clustering, reflecting greater sensitivity to sentence structure and idiomatic phrasing.</p>
+
+      <h2>4-gram</h2>
+      <img src="/images/fitz_stylo_6.png" class="analyses">
+      <p><b>Cluster analysis 4-gram (consecutive four-word sequences):</b><br>
+      The distances between Zelda’s work and Scott’s works increase. Scott’s "The Beautiful and Damned" is isolated further from both of Zelda’s works.<br>
+      This implies that Zelda's use of longer phrase patterns is distinct from Scott's style, which contrasts with the slight proximity seen in 2-gram analysis.<br>
+      Olga: It is distinct but still it is rather close to 0, which means that the difference that they portray is quite minimal. The difference is around 0.3 delta distance, which is quite impressive.<br>
+      Also, the cluster of "Beautiful and the Damned" with "Kew Gardens" is presented along the 1-gram and the bigram as something consistent. The reason behind this could be maybe the close themes? However, it does not seem that the themes are close by.<br>
+      Could this be a limitation? The uncertainty why some cluster together.</p>
+
+      <p>This analysis examines four-word sequences ("4-grams"), which can reveal deeper syntactic and stylistic similarities.<br>
+      ■ Gertrude Stein's "G.M.P" remains the most distinct, reinforcing her unique style across all levels of analysis.<br>
+      ■ Zelda Fitzgerald's works ("The Girl the Prince Liked" and "Eulogy on the Flapper") continue to cluster closely.<br>
+      ■ Hemingway's works maintain their tight grouping, showing consistent multi-word phrasing patterns.<br>
+      ■ Virginia Woolf's works show more stylistic coherence, clustering closer to each other than in previous analyses.<br>
+      ■ Dorothy Parker and F. Scott Fitzgerald diverge, with "Big Blonde" moving closer to Woolf’s texts.<br>
+      ■ Scott Fitzgerald’s work still remains close to “Kew Gardens” by Virginia Woolf, indicating multi-word phrasing pattern similarities.<br>
+      The 4-gram analysis reinforces the separation between authors while highlighting stable groupings, such as Zelda Fitzgerald's and Hemingway's works.</p>
+
+      <h2>COMBINED INTERPRETATION</h2>
+      <p><b>Comparison Across All Analyses:</b><br>
+      ● Gertrude Stein: Stands out as distinct in all analyses, confirming her highly unique style.<br>
+      ● Zelda Fitzgerald: Consistently clusters tightly, demonstrating internal coherence in her stylistic patterns.<br>
+      ● Hemingway: Maintains strong internal cohesion, showing little variation in multi-word sequences.<br>
+      ● Virginia Woolf: While her works remain linked, the degree of coherence strengthens with longer n-grams (4-grams).<br>
+      ● Dorothy Parker and F. Scott Fitzgerald: Their clustering patterns shift, reflecting changing overlaps in word choice and syntax depending on the granularity.</p>
+
+      <p><b>General Insights:</b><br>
+      1. Lower n-grams (1-gram) emphasize individual word choice, revealing broader stylistic trends and authorial separation.<br>
+      2. Higher n-grams (2-gram, 4-gram) highlight syntax and idiomatic expressions, providing more nuanced insights into authorial style and thematic coherence.<br>
+      3. 1-Gram Level: Scott’s work aligns stylistically closer to one of Zelda’s stories ("The Girl The Prince Liked"). This could hint at shared vocabulary or similar word frequency patterns in their writing, possibly due to shared influences or mutual stylistic borrowings.<br>
+      4. 2-Gram Level: Zelda’s two stories become more aligned, while Scott’s work starts to stand apart. This indicates that as we move to analyzing short phrases, Zelda’s works share more stylistic coherence with each other, and Scott’s unique style begins to emerge.<br>
+      5. 4-Gram Level: Scott’s work is clearly distinct from both of Zelda’s stories, reinforcing the notion that his phrasing and longer word sequences are different from Zelda's.</p>
+
+      <p><b>Can Scott Be Accused of Copying Zelda?</b><br>
+      While the 1-gram dendrogram suggests some overlap between Scott’s work and one of Zelda’s stories, this alone is insufficient to prove copying. The divergence seen at higher n-gram levels (2-grams and 4-grams) suggests that while there may be some superficial similarities in word choice, the overall stylistic patterns diverge significantly.</p>
+
+      <h2>Bootstrap Consensus Tree, 4-Gram Analysis</h2>
+      <img src="/images/fitz_stylo_7.png" class="analyses">
+      <p><b>Analysis:</b><br>
+      1. Structure of the Tree:<br>
+      The tree is a three-way split, with Zelda’s "The Girl The Prince Liked" (blue), Zelda’s "Eulogy On The Flapper" (red), and Scott’s "The Beautiful and Damned" (green) forming distinct branches.<br>
+      The branching suggests that the texts are stylistically distinct at the level of 4-grams.<br>
+      2. Texts:<br>
+      Scott’s work ("The Beautiful and Damned") is separate from both of Zelda’s works, forming its own branch.<br>
+      Zelda’s two works, "The Girl The Prince Liked" and "Eulogy On The Flapper," do not cluster together and are clearly distinct from each other as well.<br>
+      3. Consensus Level:<br>
+      A consensus tree incorporates multiple iterations of cluster analysis to ensure stability. The consistent separation of these three texts across iterations strengthens the evidence that their stylistic patterns differ significantly at the 4-gram level.</p>
+
+      <p><b>Connection with Consensus Tree:</b><br>
+      This analysis reinforces the findings FROM 4-gram dendrogram: Scott’s text is stylistically distinct from both of Zelda’s works. At the level of four-word sequences, there is no strong evidence of Scott borrowing stylistically from Zelda.</p>
+
+      <p><b>Conclusion:</b><br>
+      This bootstrap further diminishes the likelihood of a claim that Scott’s writing (in "The Beautiful and Damned") copied or heavily borrowed stylistically from Zelda’s stories. Instead, the evidence supports the idea that all three works maintain unique stylistic patterns.</p>
+    </div>
+
+    <div class="section">
+      <h2>Distractor Authors</h2>
+  
+      <div class="author-section">
+          <h3>Gertrude Stein</h3>
+          <p><b>Relation:</b> Gertrude Stein was a prominent figure in the expatriate literary community in Paris during the same time as the Fitzgeralds and Hemingway. She was known for her experimental writing style and her role as a mentor to many writers of the Lost Generation.</p>
+          <p><b>Why?</b> Stein's distinctive experimental style contrasts sharply with the Fitzgeralds' more narrative-driven works.</p>
+      </div>
+  
+      <div class="author-section">
+          <h3>Dorothy Parker</h3>
+          <p><b>Relation:</b> Dorothy Parker was a member of the Algonquin Round Table, a literary group that F. Scott Fitzgerald occasionally joined. She was also a vocal admirer of Fitzgerald's writing and worked in New York during the Jazz Age.</p>
+          <p><b>Why?</b> While she shares some thematic overlap with the Fitzgeralds, her sharp, satirical voice is distinct from their romantic and lyrical styles.</p>
+      </div>
+  
+      <div class="author-section">
+          <h3>Virginia Woolf</h3>
+          <p><b>Relation:</b> Virginia Woolf, a prominent modernist writer, was active during the same time as the Fitzgeralds. Though not directly connected to the Lost Generation, her experimental narratives influenced 20th-century literature, which the Fitzgeralds were part of.</p>
+          <p><b>Why?</b> Woolf's works focus more on stream-of-consciousness and interiority than the Fitzgeralds' depictions of social dynamics and romance.</p>
+      </div>
+  
+      <div class="author-section">
+          <h3>T.S. Eliot</h3>
+          <p><b>Relation:</b> Eliot, like the Fitzgeralds, was part of the Modernist movement and was a contemporary of theirs. His poetry captured similar themes of disillusionment and the postwar generation.</p>
+          <p><b>Why?</b> Eliot primarily wrote poetry rather than novels, and his dense, fragmented style is vastly different from the Fitzgeralds' lyrical prose.</p>
+      </div>
+  
+      <div class="author-section">
+          <h3>Evelyn Waugh</h3>
+          <p><b>Relation:</b> Evelyn Waugh, a British writer, explored themes of decadence and social change, similar to those in Fitzgerald’s works. His novels, such as <em>Brideshead Revisited</em>, touch on issues of class and relationships, paralleling some Fitzgeraldian themes.</p>
+          <p><b>Why?</b> Waugh's British perspective and satirical tone contrast with the Fitzgeralds' deeply romanticized and American-centered narratives.</p>
+      </div>
+  </div>
+  
+
+    <script src="../menu.js" defer></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        generateMenu("menu-container");
+      });
+    </script>
+  </body>
+</html>

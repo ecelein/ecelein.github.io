@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="styling_subpages.css" />
+  </head>
+  <body>
+    <div id="menu-container"></div>
+    
+    <h2>Recommendations for Voyant Tools</h2>
+    <p>
+    To address the limitations of Voyant Tools, several strategies can enhance its usability and analytical depth. Firstly, the issue of preselection bias can be mitigated by integrating machine learning topic modeling techniques to uncover patterns without restricting the scope to predefined terms. Additionally, the limitation of focusing solely on words and phrases can be overcome by complementing Voyant with advanced natural language processing (NLP) frameworks like SpaCy or NLTK. These tools can analyze syntactic structures and discourse-level patterns, offering richer insights into the text.
+    </p>
+    <p>
+    To counter the surface-level analysis limitation, researchers should use Voyant in combination with semantic-rich models like Word2Vec, which delve into deeper textual subtleties, including tone and sentiment. Furthermore, the case sensitivity limitation requires preprocessing steps like text normalization to ensure consistent capitalization treatment. For large corpora, dividing the data into smaller subsets before analysis. Issues related to exporting images, particularly in the “Trends” section, can be resolved by postprocessing exported visuals to manually add missing labels or by using alternative screen capture methods for labeled outputs.
+    </p>
+    <p>
+    Voyant’s simplicity, while advantageous for beginners, can be limiting for complex research needs. To bridge this gap, researchers can use Voyant for exploratory analysis and transition to more sophisticated tools, such as Python, for advanced exploration. For pre-processing requirements, tools like Python's Pandas library can streamline text cleaning before importing it into Voyant. Finally, the dependency on internet connectivity necessitates the exploration of offline alternatives, such as AntConc, for use in restrictive environments.
+    </p>
+    
+    <h2>R Environment Recommendations</h2>
+    <p>
+    Limitations in the R environment, such as in stylo() and oppose(), can be enhanced by improving workflow and integrating tools. Repetitive installation of packages should be solved to ensure reproducibility. Similarly, UTF-8 encoding can be overcome by applying automated batch encoding scripts or third-party preparation tools that help in preparing the files with great efficiency.
+    </p>
+    <p>
+    The context insensitivity and word frequency count dependence of Stylo() may be overcome by the inclusion of contextual language models. To avoid any dependence on these parameters, settings should be standardized through pilot tests and their refinement based on specific corpus characteristics.
+    </p>
+    <p>
+    Stylo() cannot fully capture stylistic features from poetry or drama; thus, it might be complemented with extra stylometric tools that would give a broader view on function words and genre-specific features. For period-specific language variations, linguistic normalization techniques using historical lexicons could provide a more consistent analytical basis.
+    </p>
+    <p>
+    The unigram-based, bigram-based, and n-gram-based dendrogram-based cluster analysis may be extended with language models that also handle morphological issues to allow richer insight into textual patterns, or the tools may be used in combination.
+    </p>
+    <p>
+    oppose() would be more powerful with the integration of contextual analysis tools. Currently, the tool identifies key words but does not explain how these are used within particular contexts. This gap can be bridged by coupling oppose() with concordance tools or embedded models like Word2Vec (or Voyant) to uncover patterns of word usage and improve qualitative interpretations. Further, corpus imbalance can be addressed and comparative analyses improved by methods to balance corpora sizes and employ multidimensional clustering.
+    </p>
+    
+    <h2>Recommendations Based on Juola's Framework</h2>
+    <p>
+    In addition to what has already been implemented in terms of distractor authors, several further steps can be taken to overcome the remaining limitations in Juola's framework and make it more profound and reliable.
+    </p>
+    <p>
+    Hybrid methodologies, such as those combining stylometry with linguistic techniques, should be incorporated in verification tasks to either confirm or rule out a specific author in order to increase the effectiveness of verification tasks. Such methods can add context by incorporating qualitative stylistic comparisons or metadata analysis.
+    </p>
+    <p>
+    One of the major limitations of Juola's framework is that it cannot provide direct probability judgments in authorship attribution. In this respect, probabilistic modeling methods may enable a more fine-grained quantification of certainty regarding the results of attribution. A hybrid approach, where stylometric findings feed into probabilistic models, may further enhance the robustness of the analysis.
+    </p>
+    <p>
+    While the addition of distractor authors promotes diversity within a corpus, genre, theme, and period should also be factored into corpus variation. A diverse corpus diminishes the chances of biased interpretations because of the overrepresentation of certain styles or linguistic patterns. It is desirable that corpora be compiled that correspond to the focus of the analysis but at the same time are representative of language use, genre, and thematic content in general.
+    </p>
+    <p>
+    Lastly, tools showing the meaning of words and phrases within context should be included. Essentially, the static linguistic features dominating Juola's framework mean it is unable to get to the minute particulars that can determine exactly how any one word will function. Thus, adding in some more context-aware tools like Word2Vec could actually let the framework compare words in their proper context for further stylistic and semantic trends. This would also repair the reliance of the framework on static features, adding to more holistic and subtle analyses.
+    </p>
+    <p>
+    These recommendations would further fine-tune Juola's framework in the light of the current limitations for more robust and reliable outcomes in authorship attribution and related areas of research.
+    </p>
+    
+    <h2>General Recommendations for the Tools and the Project</h2>
+    <p>
+    A holistic approach to addressing the limitations of these tools is necessary for achieving more reliable and nuanced text analysis. Combining tools is a practical solution, where Voyant can serve as an exploratory tool, and R-based methods like stylo() or oppose() can provide deeper analytical insights. Researchers should establish robust preprocessing pipelines to prepare texts uniformly, ensuring compatibility across tools.
+    </p>
+    <p>
+    Customizability is another crucial area of improvement. Researchers should be able to modify tool functionalities, so that they can tailor analyses to meet specific research goals.
+    </p>
+    <p>
+    Lastly, accessibility can be improved by developing offline versions of web-dependent tools, thereby supporting research in restricted environments. A feedback mechanism should be established to relay issues and recommendations to developers for iterative tool improvements.
+    </p>
+    <p>
+    By implementing these recommendations, researchers can overcome the tools' current limitations and maximize their potential in diverse textual analysis tasks.
+    </p>
+    
+    <h2>Recommendations for Reproducibility</h2>
+    
+    <h3>Recommendations for New Researchers Conducting Similar Research</h3>
+    <p>
+    The following recommendations provide a practical guideline for researchers who may want to replicate or build on our study, thus ensuring a smooth and successful research process:
+    </p>
+    
+    <h3>1. Understand the Tools and Methods</h3>
+    <ul>
+      <li><b>Familiarize with Software:</b> Take time to understand the various tools used in the research, including Voyant, R's stylometry packages, and oppose() for Zeta analysis. Understand their capabilities and limitations to maximize their potential.</li>
+      <li><b>Study Relevant Frameworks:</b> Consider going through foundational literature, such as that by Juola, to understand stylometry and authorship attribution from a theoretical point of view. This shall help in placing your research within perspectives that have been postulated.</li>
+    </ul>
+    
+    <h3>2. Start with a Well-Defined Research Question</h3>
+    <p>
+    Clearly articulate the goals of your research and make sure they align with the capabilities of the tools being used. Define whether the focus is on authorship attribution, genre analysis, or linguistic trends.
+    </p>
+    
+    <h3>3. Prepare and Preprocess Data Thoroughly</h3>
+    <ul>
+      <li><b>Data Collection:</b> Assemble a diverse and representative corpus. Include texts from various authors, genres, and time periods to ensure comprehensive analysis.</li>
+      <li><b>Preprocessing:</b> Clean and standardize your data. This includes keeping uniform encoding like UTF-8, removing metadata, and normalizing text formatting.</li>
+    </ul>
+    
+    <h3>4. Employ Distractor Authors</h3>
+    <p>
+    Include the authors of distractors in your corpus: this will help in the reduction of bias and make authorship attribution more reliable. A robust comparison needs works of equal styles but from authors with no relation.
+    </p>
+    
+    <h3>5. Experiment with Parameters</h3>
+    <p>
+    Experiment with different parameters—MFW, distance measures, or occurrence thresholds in stylometry—to see changes in the results. Begin with suggested defaults and observe and modify based on the peculiarities of your corpus.
+    </p>
+    
+    <h3>6. Combine Tools for Complementary Insights</h3>
+    <p>
+    Use multiple tools to cross-validate your results. For example, Voyant is excellent for exploratory analysis, while R’s stylometry functions can provide deeper quantitative insights. Supplement these with machine learning models if needed.
+    </p>
+    
+    <h3>7. Account for Context</h3>
+    <p>
+    Tools like oppose() can identify important words, but contextual analysis can provide richer insights. Use concordance tools (like Word2Vec) to analyze word usage within its textual context.
+    </p>
+    
+    <script src="../menu.js" defer></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        generateMenu("menu-container");
+      });
+    </script>
+  </body>
+</html>

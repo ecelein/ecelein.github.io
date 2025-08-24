@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Limitations</title>
+    <link rel="stylesheet" href="styling_subpages.css" />
+  </head>
+  <body>
+    <div id="menu-container"></div>
+    <h2>Limitations of Voyant Tools</h2>
+
+    <ol>
+      <li>
+        <u>Preselection Bias</u>
+        <p>
+          The preselection of terms by the researcher introduces bias into the analysis, inasmuch as it reduces the scope to words already deemed important. This could limit the possibility of discovering unanticipated patterns or insights.
+        </p>
+      </li>
+    
+      <li>
+        <u>Focus on Words and Phrases</u>
+        <p>
+          Voyant focuses on the level of the word or phrase and lacks tools to explore higher-order structures of discourse. Words can possess various meanings and functions in their contexts, which are not accounted for by Voyant, with the result that analyses are often oversimplified.
+        </p>
+      </li>
+    
+      <li>
+        <u>High-Frequency Terms Dominance</u>
+        <p>
+          High-frequency terms tend to dominate less frequent but contextually important words, and as such, it is often difficult to examine smaller or rare-term patterns.
+        </p>
+      </li>
+    
+      <li>
+        <u>Surface-Level Analysis</u>
+        <p>
+          Design-wise, Voyant is oriented toward exploring word frequencies, collocations, and simple trends, and these functions generally focus more on superficial lexical patterns than on semantic depth or textual subtlety.
+        </p>
+      </li>
+    
+      <li>
+        <u>Case Sensitivity</u>
+        <p>
+          Another limitation of Voyant is its inability to recognize capital letters, which may pose problems in the analysis of proper names or word differentiation based on case sensitivity.
+        </p>
+      </li>
+    
+      <li>
+        <u>Large Corpora Performance Issues</u>
+        <p>
+          Voyant tends to frequently hang or experience extreme slowness when working with large corpora, thus limiting its functionality for big-data textual analysis.
+        </p>
+      </li>
+    
+      <li>
+        <u>Image Export Issues</u>
+        <p>
+          In the "Trends" section, pictures exported in PNG format do not include the labels of the collocations, probably making the visual output less informative and difficult to read.
+        </p>
+      </li>
+    
+      <li>
+        <u>Ease of Use vs. Complexity</u>
+        <p>
+          While Voyant is easy to use and thus perfect for beginners, this ease of use comes at the cost of its ability to handle more advanced analyses. It provides many tools for text analysis, but it may not support highly specialized or complex research needs.
+        </p>
+      </li>
+    
+      <li>
+        <u>Pre-Processing Requirement</u>
+        <p>
+          Voyant is not the best option for texts with complex formatting or those that need a lot of cleaning. In such cases, the researcher needs to pre-process the data—that is, cleaning metadata, encoding issues, or standardizing formatting before importing it into Voyant for analysis.
+        </p>
+      </li>
+    
+      <li>
+        <u>Internet Dependency</u>
+        <p>
+          Because Voyant works essentially as a web application, it does not support offline work; an active Internet connection is needed. It is also less useful in research requiring a more restrictive or totally offline work environment.
+        </p>
+      </li>
+    </ol>
+    <hr>
+    <h2>R Environment Limitations</h2>
+    
+    <ol>
+      <li>
+        <u>Installation of Packages</u>
+        <p>
+          A significant limitation of using <i>stylo()</i> and <i>oppose()</i> in R, is the need for installation of required packages every single time the tools are used. This makes it really inefficient and slows down one's workflow, especially on big-scale analyses or repeated analyses.
+        </p>
+      </li>
+    
+      <li>
+        <u>File Encoding</u>
+        <p>
+          Another important limitation of the R environment is that all the files need to be UTF-8 encoded to work properly. If they are not properly encoded, no visualizations will be done, which costs some time and an extra step for reformatting the files.
+        </p>
+      </li>
+    </ol>
+    <hr>
+    <h2>Limitations of the <i>stylo()</i> function - Stylometry</h2>
+    
+    <ol>
+      <li><u>Context Insensitivity</u></li>
+      <p>
+        The <i>stylo()</i> function counts word frequencies but does not consider their contextual use. While other tools, such as Voyant, offer very specific information regarding word contexts, <i>stylo()</i> forces the researcher to assume how words are used within the corpus. This often leads to very simplified, and possibly misleading, interpretations.
+      </p>
+    
+      <li><u>Parameter Dependency</u></li>
+      <p>
+        The results might differ substantially because of the parameters: MFW, culling, and distance measures. These, in turn, will influence the levels of consistency, reliability, and interpretability.
+      </p>
+    
+      <li><u>Lack of Inclusion of Stylistic Features</u></li>
+      <p>
+        It might miss out on crucial stylistic features vital to an author's intention or thematic preoccupations and hence fails to give a full capture of textual nuances.
+      </p>
+    
+      <li><u>Genre-Specific Limitations</u></li>
+      <p>
+        Whereas <i>stylo()</i> works perfectly for prose, it might not work well with non-standard genres such as poetry or drama, whose stylistic conventions are so different.
+      </p>
+    
+      <li><u>Subgenre Detection Challenges</u></li>
+      <p>
+        The tool does a poor job of identifying and thus analyzing subgenres since the peculiarities of these are very fine.
+      </p>
+    
+      <li><u>Period-Specific Language Variations</u></li>
+      <p>
+        Analyses with texts from different historical periods are problematic in themselves because the conventions of language change over time. Variations in an author's style across different phases of their career may be skewed by the changing linguistic norms.
+      </p>
+    
+      <li><u>Marker Word Analysis</u></li>
+      <p>
+        While dendrograms produced through <i>stylo()</i> excel in the identification of marker words of various authors, other tools, such as Craig's Zeta, arguably grant more prominence to lexical words related to genres and themes. Thus, one often dismisses function words, which are extremely important for getting hold of an author's unique stylistic fingerprint.
+      </p>
+    </ol>
+    <hr>
+    <h2>Limitations of n-grams in Cluster Analysis Dendrograms</h2>
+    
+    <ol>
+      <li><u>Unigrams</u></li>
+      <p>
+        Dendrograms based on unigrams depend on superficial textual information and do not catch contextual nuances, hence limiting the depth of analysis.
+      </p>
+    
+      <li><u>Bigrams</u></li>
+      <p>
+        Analysis by Bigram may be problematic for a language that is not rich in morphology, as the insights then become incomplete or inaccurate.
+      </p>
+    
+      <li><u>Four-Grams</u></li>
+      <p>
+        Four-gram analysis may overemphasize thematic words that appear frequently in a text. These words often lack relevance to stylistic patterns and can bias results toward genre influences.
+      </p>
+    </ol>
+<hr>
+    <h2>Limitations According to Juola’s Framework</h2>
+
+<h3><u>Lack of Distractor Authors</u></h3>
+<p>
+Juola illustrates that the use of distractor authors in stylometric analysis not only reduces plus factors but also helps in avoiding confirmation bias and gives better validation. Without distractor authors, such an analysis can be overly simplistic, unbalanced in nature, and prone to misattribution. The introduction of variety into the corpus through the use of distractor authors enhances its reliability.
+</p>
+<blockquote>
+  “The overall cases are structured as verification problems ('did this person write that document?'), but the current state-of-the-art obtains best results on closed-class attribution problems ('which of these people was most likely to have written that document?'). To address this gap, we follow Koppel et al. (2012) and propose the collection of an ad hoc distractor corpus of different works by comparable authors" (Juola i106).
+</blockquote>
+
+<h3> <u>Closed-Class Attribution vs. Verification Problems</u></h3>
+<p>
+Juola stresses that current methods in stylometry are powerful in "closed-class attribution" tasks where the real author is guaranteed to be among a pre-defined set of candidates but much weaker in "verification problems," which is where one must establish if a given person wrote a text. Without the appropriate distractors, this sort of setup is much weaker analysis because it actually cannot rule out alternatives.
+</p>
+
+<h3><u>No Direct Probability Judgments</u></h3>
+<p>
+Most stylometric methods, like Burrow's Delta, can provide only a ranking of the authors by likelihood and no direct probability estimates of the authorship. That means results are relative, not absolute, which hampers the quantification of the certainty of the attribution. Authorship attribution remains an open problem when probabilistic modeling is required.
+</p>
+<blockquote>
+  "A second assumption is that the analysis will produce a rank-ordering of the authors by likelihood (e.g., A is the most likely author, B the next most likely after A, and C still less likely), but not necessarily provide specific probability judgments. Standard analysis methods such as Burrow's Delta will produce this sort of result, but direct probability measurements are, at this writing, still an open research problem" (Juola i105).
+</blockquote>
+
+<h3><u>Limited Diversity of Corpus</u></h3>
+<p>
+Juola's approach relies heavily on the importance of a diverse and representative corpus. In cases where the corpus is not very diverse, for example, works from just a few authors, genres, or time periods, the results could be biased to give misinterpretations or false positives.
+</p>
+
+<h3><u>Reliance upon Assumptions</u></h3>
+<p>
+Stylometric analyses under Juola's framework assume that the linguistic pattern of an author is consistent and unique; this may not hold for different periods, genres, or writing contexts. Such assumptions may further reduce the reliability of results in cases where the texts under scrutiny are very far from the norm.
+</p>
+<hr>
+<h2>Limitations of the <i>oppose()</i> function - Zeta Analysis</h2>
+
+<ol>
+  <li>
+    <u>Genre Bias</u>
+    <p>
+      Craig's Zeta is highly influenced by lexical words, making it more suitable for genre analysis than for identifying an author's stylistic features based on function words.
+    </p>
+  </li>
+
+  <li>
+    <u>Stop-Word Constraints</u>
+    <p>
+      The inability of the function to allow a stop-word list and considering various forms of the same word as different reduces its potential to give better qualitative results.
+    </p>
+  </li>
+
+  <li>
+    <u>Corpus Imbalance</u>
+    <ul>
+      <li><b>Statistical Bias:</b> If one corpus is considerably bigger than another, the statistical weight would be biased to that one during analysis and hence results also.</li>
+      <li><b>Disproportionate Word Distribution:</b> High-frequency words in a larger corpus may become stylistically important though their prevalence might be due only to the size of the corpus, not relevance to style.</li>
+      <li><b>Small Corpus Sensitivity:</b> In smaller corpora, contextual-specific words are more likely to pop up as important just because of word count limits and thus distort results.</li>
+    </ul>
+  </li>
+
+  <li>
+    <u>Pairwise Analysis Limitation</u>
+    <p>
+      The major drawback of Zeta analysis is that it cannot support the comparison of more than two sample sets for comparative analysis. Though this will not create a problem when analyzing gender-based texts, this becomes an issue when analyzing broad categories such as genres - comedies, tragedies or satirical dramas. A researcher would have to be confined to pairwise comparisons, which will make the analysis time-consuming and cumbersome.
+    </p>
+  </li>
+
+  <li>
+    <u>Exclusion Rather than Confirmation</u>
+    <p>
+      Sole reliance on Zeta analysis provides no confirmation of stylistic features but rather exclusion. The only thing researchers would have to fall back on then are supplementary methods by which to reach more concrete conclusions.
+    </p>
+  </li>
+</ol>
+
+    <script src="../menu.js" defer></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        generateMenu("menu-container");
+      });
+    </script>
+  </body>
+</html>
